@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="container">
+      
+  <main>
+    <Dictionary defaultKeyword="lisbon"/>
+    </main>
+    <footer> 
+      This project was coded by Mariana Carvalho and is open sourced on <a href='https://github.com/MarianavCarvalho/dictionary-my-app'>GitHub</a>
+    </footer>
+      
+      </div>
+      </div>
+    
   );
 }
-
-export default App;
