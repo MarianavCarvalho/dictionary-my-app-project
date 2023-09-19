@@ -10,7 +10,7 @@ export default function App() {
     <Dictionary defaultKeyword="lisbon"/>
     </main>
     <footer> 
-      This project was coded by Mariana Carvalho and is open sourced on <a href='https://github.com/MarianavCarvalho/dictionary-my-app'>GitHub</a>
+      This project was coded by Mariana Carvalho and is open sourced on <a href='https://github.com/MarianavCarvalho/dictionary-my-app-project'>GitHub</a>
     </footer>
       
       </div>
