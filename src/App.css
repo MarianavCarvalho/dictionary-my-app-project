@@ -1,0 +1,13 @@
+body {
+    background: #f9f8fe;
+}
+
+.App {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.App footer {
+    text-align: center;
+    margin: 50px 20px;
+}
